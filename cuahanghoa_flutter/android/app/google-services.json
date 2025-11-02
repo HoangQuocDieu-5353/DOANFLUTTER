@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "558737701925",
+    "firebase_url": "https://cuahanghoa-doan-default-rtdb.firebaseio.com",
+    "project_id": "cuahanghoa-doan",
+    "storage_bucket": "cuahanghoa-doan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558737701925:android:d859be6dc0acd5e47353cc",
+        "android_client_info": {
+          "package_name": "com.example.cuahanghoa_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADa2DAz3Gtg2UschYbJuAmIcmelCq8YL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
