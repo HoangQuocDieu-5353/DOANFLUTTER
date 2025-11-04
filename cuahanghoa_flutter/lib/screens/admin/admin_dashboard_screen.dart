@@ -9,8 +9,6 @@ import 'package:cuahanghoa_flutter/screens/admin/banner/banner_admin_screen.dart
 import 'package:cuahanghoa_flutter/screens/admin/category/category_list_screen.dart';
 import 'package:cuahanghoa_flutter/screens/admin/products/product_list_screen.dart';
 import 'package:cuahanghoa_flutter/screens/admin/users/user_list_screen.dart';
-import 'package:cuahanghoa_flutter/screens/auth/views/login_screen.dart';
-import 'package:cuahanghoa_flutter/screens/admin/orders/admin_all_orders_screen.dart';
 import 'package:cuahanghoa_flutter/screens/admin/coupons/admin_coupon_list_screen.dart';
 import 'package:cuahanghoa_flutter/route/route_constants.dart';
 import 'package:cuahanghoa_flutter/screens/admin/statistics/statistics_screen.dart';

@@ -49,7 +49,6 @@ class _ProductBuyNowScreenState extends State<ProductBuyNowScreen> {
                 ),
                 IconButton(
                   onPressed: () {
-                    // TODO: Thêm bookmark logic nếu muốn
                   },
                   icon: SvgPicture.asset(
                     "assets/icons/Bookmark.svg",
@@ -59,8 +58,6 @@ class _ProductBuyNowScreenState extends State<ProductBuyNowScreen> {
               ],
             ),
           ),
-
-          // ❌ ĐÃ XOÁ PHẦN PRODUCT DEMO ẢNH
 
           Expanded(
             child: CustomScrollView(

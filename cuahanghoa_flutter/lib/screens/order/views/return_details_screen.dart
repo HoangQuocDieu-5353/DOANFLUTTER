@@ -5,7 +5,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:cloudinary_public/cloudinary_public.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:cuahanghoa_flutter/screens/order/views/return_details_screen.dart';
 
 class ReturnDetailsScreen extends StatefulWidget {
   final String orderId;
