@@ -14,7 +14,7 @@ class _BannerCarouselState extends State<BannerCarousel> {
   final DatabaseReference _db = FirebaseDatabase.instance.ref('banners');
   int _current = 0;
 
-  /// 🔹 Stream lấy banner đang active
+  /// Stream lấy banner đang active
   Stream<List<Map<String, dynamic>>> _getActiveBanners() {
     return _db.onValue.map((event) {
       final data = event.snapshot.value;
@@ -28,7 +28,7 @@ class _BannerCarouselState extends State<BannerCarousel> {
           "link": map["link"],
           "isActive": map["isActive"] ?? true,
         };
-      }).where((b) => b["isActive"] == true).toList(); // ⚡ chỉ lấy active
+      }).where((b) => b["isActive"] == true).toList(); // chỉ lấy active
     });
   }
 

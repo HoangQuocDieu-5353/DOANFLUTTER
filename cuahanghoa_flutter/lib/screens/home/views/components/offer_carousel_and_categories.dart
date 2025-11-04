@@ -46,7 +46,7 @@ class OffersCarouselAndCategories extends StatelessWidget {
       children: [
         const Padding(
           padding: EdgeInsets.only(bottom: defaultPadding),
-          child: BannerCarousel(), // ✅ Dùng banner động
+          child: BannerCarousel(), //Dùng banner động
         ),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: defaultPadding),

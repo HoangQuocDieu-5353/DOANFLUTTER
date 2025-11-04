@@ -21,7 +21,7 @@ class MostPopular extends StatelessWidget {
       children: [
         const SizedBox(height: defaultPadding / 2),
 
-        // 🌟 Tiêu đề — hòa quyện giữa sắc tím và cảm giác premium
+        // Tiêu đề — hòa quyện giữa sắc tím và cảm giác premium
         Padding(
           padding: const EdgeInsets.all(defaultPadding),
           child: Text(
@@ -35,7 +35,7 @@ class MostPopular extends StatelessWidget {
           ),
         ),
 
-        // 🔹 StreamBuilder lắng nghe realtime data từ Firebase
+        //  StreamBuilder lắng nghe realtime data từ Firebase
         SizedBox(
           height: 260,
           child: StreamBuilder<List<ProductModel>>(

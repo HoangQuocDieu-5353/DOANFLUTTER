@@ -26,7 +26,6 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
   late TextEditingController _maxPriceController;
   String? _selectedCategory;
 
-  // ⬇️ 2. KHỞI TẠO SERVICE
   final CategoryService _categoryService = CategoryService();
   // (Không cần Future nữa vì chúng ta dùng Stream)
 
@@ -79,7 +78,6 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Header (Giữ nguyên)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -96,7 +94,6 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
             ),
             const Divider(height: 24),
 
-            // Khoảng giá (Giữ nguyên)
             Text("Khoảng giá (VNĐ)",
                 style: GoogleFonts.inter(fontWeight: FontWeight.w500)),
             const SizedBox(height: 12),
@@ -127,7 +124,6 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
             ),
             const SizedBox(height: 24),
 
-            // ⬇️ 3. SỬ DỤNG STREAMBUILDER CHO DANH MỤC
             Text("Danh mục",
                 style: GoogleFonts.inter(fontWeight: FontWeight.w500)),
             const SizedBox(height: 12),
@@ -172,12 +168,9 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                   },
                 );
               },
-            ),
-            // ⬆️ HẾT PHẦN SỬA
-            
+            ),            
             const SizedBox(height: 30),
 
-            // Nút Áp dụng (Giữ nguyên)
             ElevatedButton(
               onPressed: _applyFilters,
               style: ElevatedButton.styleFrom(
